@@ -4,7 +4,7 @@ function Home() {
   return (
     <div>
       <div>
-        <p className='font-semibold text-6xl'>Earth's Exhale</p>
+        <p className='font-bold text-6xl'>Earth's Exhale</p>
       </div>
     </div>
   )
