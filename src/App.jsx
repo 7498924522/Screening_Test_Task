@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
-import Top_Logo from "./assets/plant.png";
 import BackGround_image from "./assets/BackGround_Image.jpg";
 import Rose_Gold from "./assets/Rose Gold.png";
 import Rose_Gold1 from "./assets/Rose Gold1.png";
@@ -21,6 +20,7 @@ import TopSellingPlants from "./Components/PLANTCARD/TopSellingPlants";
 import SectionTitle from "./Components/SECTIONTITLE/SectionTitle";
 import TestimonialCard from "./Components/TESIMONIALCARD/Testimonialcard";
 import TrendyPlant from "./Components/PLANTCARD/TrendyPlant";
+import Footer from "./Components/FOOTER/Footer";
 
 function App() {
   const testimonials = [
@@ -189,54 +189,7 @@ function App() {
           <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 text-gray-200">
-          <div className="">
-            <div className="flex items-center md:p-4 p-2">
-              <img className="h-6 w-6" src={Top_Logo} alt="none" />
-              <p className="font-bold">FloraVision.</p>
-            </div>
-            <p className="px-10">
-              "From lush indoor greens to vibrant outdoor blooms, our plants are
-              crafted to thrive and elevate your living environment."
-            </p>
-          </div>
-          <div>
-            <h2 className="text-center font-bold">Quick Link's</h2>
-
-            <div className="md:ml-40 ml-10 my-3">
-              <h2 className="">Home</h2>
-              <h2 className="">Types Of plant's</h2>
-              <h2 className="">Contact</h2>
-              <h2 className="">Privacy</h2>
-            </div>
-          </div>
-          <div>
-            <h2 className="font-bold md:ml-0 ml-4 ">For Every Update</h2>
-            <div className="relative w-[380px] mt-8 md:ml-0 ml-4">
-              <input
-                type="email"
-                placeholder="Enter Email"
-                className="w-full border border-white rounded-md bg-transparent text-white px-4 py-2 pr-36 outline-none"
-              />
-
-              <button className="absolute right-1 top-1 bottom-1 px-5 bg-white text-black font-semibold rounded-md">
-                SUBSCRIBE
-              </button>
-            </div>
-          </div>
-        </div>
-        <div className="flex justify-between text-gray-200 px-10 py-10">
-          <div className="flex font-semibold gap-6">
-            <p>FB</p>
-            <p>TW</p>
-            <p>LI</p>
-          </div>
-
-          <div className="flex">
-            <p>FloraVision © all right reserve</p>
-            
-          </div>
-        </div>
+       <Footer/>
       </div>
     </>
   );
