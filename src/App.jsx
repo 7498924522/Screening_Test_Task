@@ -7,8 +7,18 @@ import Navbar from "./Components/NAVBAR/Navbar";
 function App() {
   return (
     <>
+    <div
+      className="min-h-screen bg-no-repeat bg-cover relative"
+      style={{
+        backgroundImage: `url(${BackGround_image})`,
+        backgroundPosition: "top -120px center",
+      }}
+    >
     <Navbar/>
     <Home/>
+    </div>
+    
+    
     </>
   );
 }

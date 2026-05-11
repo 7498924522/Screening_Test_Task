@@ -7,7 +7,7 @@ function Navbar() {
   const [openMenu, setopenMenu] = useState(false);
   return (
     <div>
-      <nav className="flex justify-between items-center bg-yellow-400 px-4">
+      <nav className="flex justify-between items-center text-white px-4">
         <div className="flex items-center md:p-4 p-2">
           <img className="h-6 w-6" src={Top_Logo} alt="none" />
           <p className="font-bold">FloraVision.</p>
