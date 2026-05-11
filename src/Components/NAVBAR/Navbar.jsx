@@ -13,7 +13,7 @@ function Navbar() {
           <p className="font-bold">FloraVision.</p>
         </div>
 
-        <ul className="hidden md:flex items-center md:gap-24 gap-6 px-4">
+        <ul style={{ fontFamily: "'Indie Flower', cursive" }} className="hidden  md:flex items-center md:gap-24 gap-6 px-4">
           <li>Home</li>
           <li>Plants Type</li>
           <li>More</li>

@@ -3,8 +3,8 @@ import { FaStar, FaStarHalfAlt } from "react-icons/fa";
 const TestimonialCard = ({ image, name, review }) => {
   return (
     <div
-      className="w-[350px] rounded-[25px] p-6 md:mx-2
-    bg-white/10 backdrop-blur-md border text-white border-white/20"
+      className="w-[350px] rounded-[25px] p-6 md:mx-2 my-4
+    bg-[#1e2a1e] backdrop-blur-md border text-white border-white/20"
     >
       {/*Here's The Profile Photo Part  */}
       <div className="flex items-center gap-4">

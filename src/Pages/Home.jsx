@@ -41,7 +41,7 @@ function Home() {
 
             <CirclePlay size={42} />
 
-            <p>Live Demo...</p>
+            <p style={{ fontFamily: "'Indie Flower', cursive" }}>Live Demo...</p>
           </div>
         </div>
      
@@ -75,11 +75,11 @@ function Home() {
                   Buy Now
                 </button>
 
-                <div className="flex justify-center gap-1.5 mt-4">
-                  <div className="w-1.5 h-1.5 rounded-full bg-[#e8eaf0]" />
-                  <div className="w-1.5 h-1.5 rounded-full bg-[#3a4a5a]" />
-                  <div className="w-1.5 h-1.5 rounded-full bg-[#3a4a5a]" />
-                </div>
+                <div className="flex items-center gap-2 my-4 ml-12">
+  <div className="w-6 h-2 bg-white rounded-full"></div>
+  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+  <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+</div>
               </div>
             </div>
           </div>
