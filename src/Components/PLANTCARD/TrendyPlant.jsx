@@ -10,7 +10,7 @@ function TrendyPlant({
 }) {
   return (
     <div className="px-4 md:px-10 py-4">
-      <div className="flex flex-col md:flex-row items-center  justify-between w-full max-w-[1100px] mx-auto min-h-[350px] rounded-[100px] border border-white/20  backdrop-blur-md overflow-hidden">
+      <div className="flex flex-col md:flex-row items-center  justify-between w-full max-w-[1100px] mx-auto min-h-[350px] rounded-[70px] md:rounded-[100px] border border-white/20  backdrop-blur-md overflow-hidden">
 
         
         <div className="relative bg-transparent  flex justify-center items-center w-full md:w-1/2 ">
@@ -18,7 +18,7 @@ function TrendyPlant({
           <img
             src={image}
             alt={title}
-            className="relative z-10 -top-10 w-[220px]  sm:w-[280px] md:w-[400px]"
+            className="relative z-10 md:-top-10 w-[220px]  sm:w-[280px] md:w-[400px]"
           />
         </div>
 

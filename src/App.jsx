@@ -126,7 +126,7 @@ function App() {
 
         <SectionTitle title="Customer Review" />
 
-        <div className="md:flex  ml-20  sm:py-5 md:mt-10 sm:my-10">
+        <div className="md:flex  md:ml-20  md:mx-0 mx-10  sm:py-5 md:mt-10 sm:my-10">
           {testimonials.map((item) => (
             <TestimonialCard
               key={item.id}
@@ -139,7 +139,7 @@ function App() {
 
         <SectionTitle title="Our Best 2" />
 
-        <div className="flex flex-col md:flex-row items-center  justify-between w-full max-w-[1100px] mx-auto min-h-[350px] rounded-[100px] border border-gray-500 bg-[#1e2a1e] backdrop-blur-md overflow-hidden">
+        <div className="flex flex-col md:flex-row items-center   justify-between w-full max-w-[1100px] mx-auto min-h-[350px] rounded-[70px] md:rounded-[100px] border border-gray-500 bg-[#1e2a1e] backdrop-blur-md overflow-hidden">
           <div className="relative bg-transparent  flex justify-center items-center w-full md:w-1/2 ">
             <img
               src={Rose_Gold}
