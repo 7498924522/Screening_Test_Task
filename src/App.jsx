@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
-import BackGround_image from "./assets/BackGround_Image.jpg";
+import BackGround_image from "./assets/bg.jpg";
 import Rose_Gold from "./assets/Rose Gold.png";
 import Rose_Gold1 from "./assets/Rose Gold1.png";
 import Rose_Gold2 from "./assets/Rose Gold6.png";
