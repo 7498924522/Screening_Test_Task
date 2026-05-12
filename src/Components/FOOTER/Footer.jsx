@@ -6,7 +6,7 @@ function Footer() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5 text-gray-200">
         <div className="">
           <div className="flex items-center md:p-4 p-2">
-            <img className="h-6 w-6" src={Top_Logo} alt="none" />
+            <img className="h-8 w-8" src={Top_Logo} alt="none" />
             <p className="font-bold">FloraVision.</p>
           </div>
           <p className="px-10">
@@ -39,7 +39,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex justify-between text-gray-200 px-10 py-10">
+      <div className="flex justify-between md:gap-0 gap-5 text-gray-200 px-10 py-10">
         <div className="flex font-semibold gap-6">
           <p>FB</p>
           <p>TW</p>

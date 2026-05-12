@@ -138,8 +138,8 @@ function App() {
         </div>
 
         <SectionTitle title="Our Best 2" />
-
-        <div className="flex flex-col md:flex-row items-center   justify-between w-full max-w-[1100px] mx-auto min-h-[350px] rounded-[70px] md:rounded-[100px] border border-gray-500 bg-[#1e2a1e] backdrop-blur-md overflow-hidden">
+      
+        <div className="flex flex-col md:flex-row items-center   justify-between w-auto  max-w-[1100px] mx-auto min-h-[350px] rounded-[70px] md:rounded-[100px] border  border-gray-500 bg-[#1e2a1e] backdrop-blur-md overflow-hidden">
           <div className="relative bg-transparent  flex justify-center items-center w-full md:w-1/2 ">
             <img
               src={Rose_Gold}
